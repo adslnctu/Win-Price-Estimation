@@ -13,7 +13,7 @@ iPinYou dataset  http://data.computational-advertising.org/
 
 # Library
    * [dbFeatureHasher](./dbFeatureHasher): [sklearn FeatureHasher](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.FeatureHasher.html)
-   * [ftrlProximal]:Use [Ad Click Prediction: a View from the Trenches by H. Brendan McMahan. KDD 2013.](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf) to predict CTR for each bid request. 
+   * [ftrlProximal]:Use [Ftrl-Proximal](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf) to predict CTR for each bid request. 
 
 # Plot Data
 
