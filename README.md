@@ -1,4 +1,5 @@
 # Win-Price-Estimation
+This is a win price estimation model in Real-Time Biddiing System by NCTU ADSL lab.
 
 # Required Library
   [scikit-learn](http://scikit-learn.org/stable/), [scipy](https://www.scipy.org/), [mpmath](http://mpmath.org/)
