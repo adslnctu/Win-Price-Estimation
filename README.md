@@ -1,11 +1,11 @@
 # Win-Price-Estimation
 
 # Required Library
-  scikit-learn, scipy, mpmath
+  [scikit-learn](http://scikit-learn.org/stable/), [scipy](https://www.scipy.org/), [mpmath](http://mpmath.org/)
 
 # Dataset
 
-iPinYou dataset  http://data.computational-advertising.org/
+[iPinYou dataset] (http://data.computational-advertising.org/)
 
   * Season2: 2013/6/6~2013/6/12
 
@@ -18,7 +18,7 @@ iPinYou dataset  http://data.computational-advertising.org/
 # Plot Data
 
 # Competitor
-  Wush Chi-Hsuan Wu, Mi-Yen Yeh, and Ming-Syan Chen. Predicting Winning Price in Real Time Bidding with Censored Data. In KDD, 2015.
+  [Wush Chi-Hsuan Wu, Mi-Yen Yeh, and Ming-Syan Chen. Predicting Winning Price in Real Time Bidding with Censored Data](http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/win-price-pred.pdf). In KDD, 2015.
   
   
   https://github.com/wush978/KDD2015wpp
