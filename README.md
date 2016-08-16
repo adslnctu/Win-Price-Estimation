@@ -16,6 +16,7 @@ This is a win price estimation model in Real-Time Biddiing System by NCTU ADSL l
    * [dbFeatureHasher](./dbFeatureHasher): [sklearn FeatureHasher](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.FeatureHasher.html)
    * [ftrlProximal](./ftrlProximal):Use [Ftrl-Proximal](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf) to predict CTR for each bid request. 
 
+
 # Competitor
   [Wush Chi-Hsuan Wu, Mi-Yen Yeh, and Ming-Syan Chen. Predicting Winning Price in Real Time Bidding with Censored Data](http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/win-price-pred.pdf). In KDD, 2015.
   
