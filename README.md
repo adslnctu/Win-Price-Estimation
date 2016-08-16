@@ -28,14 +28,19 @@ This is a win price estimation model in Real-Time Biddiing System by NCTU ADSL l
         * (1) Get data from source dataset (ipinyou.contest.dataset)
         * (2) Sort the data with timestamp
         * (3) Predict CTR by [Ftrl_proximal](./ftrlProximal)
-        * (4) Generate simulated data with different simulated ratio and filter the data with the winning price equal to zero
-        * (5) Pickle the dataset with [FeatureHasher](./dbFeatureHasher)
+        * (4) Generate simulated data with different simulated ratio
+        * (5) Filter the data with the winning price equal to zero
+        * (6) Pickle the dataset with [FeatureHasher](./dbFeatureHasher)
     * [simulated_1_6] (./win_price_model/simulated_1_6)
       * simulated ratio: 0.167 (1/6)
     * [simulated_2_6] (./win_price_model/simulated_2_6)
       * simulated ratio: 0.333 (2/6)
     * [simulated_3_6] (./win_price_model/simulated_3_6)
       * simulated ratio: 0.5   (3/6)
+      * maxOfAll(./win_price_model/simulated_3_6/maxOfAll): initialize the theta with max(winning price, bidding price)
+      * meanOfAll(./win_price_model/simulated_3_6/meanOfAll):initialize the theta with the mean of all data (win bid: winning price, lose bid: bidding price)
+      * meanOfwin(./win_price_model/simulated_3_6/meanOfwin):initialize the theta with the mean of win data
+      * varWL(./win_price_model/simulated_3_6/varWL):initialize the theta with variance(.)/mean(.) of all data (win bid: winning price, lose bid: bidding price)
     * [simulated_4_6] (./win_price_model/simulated_4_6)
       * simulated ratio: 0.667 (4/6)
     * [simulated_5_6] (./win_price_model/simulated_5_6)
