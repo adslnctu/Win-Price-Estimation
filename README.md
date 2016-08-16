@@ -25,7 +25,7 @@ This is a win price estimation model in Real-Time Biddiing System by NCTU ADSL l
 # Code
   * [win_price_model] (./win_price_model)
     * [preprocess.py] (./win_price_model/preprocess.py)
-        * (1) Get data from source code ipinyou.contest.dataset
+        * (1) Get data from source dataset (ipinyou.contest.dataset)
         * (2) Sort the data with timestamp
         * (3) Predict CTR by [Ftrl_proximal](./ftrlProximal)
         * (4) Generate simulated data with different simulated ratio and filter the data with the winning price equal to zero
