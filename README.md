@@ -20,5 +20,13 @@ This is a win price estimation model in Real-Time Biddiing System by NCTU ADSL l
 # Competitor
   [Wush Chi-Hsuan Wu, Mi-Yen Yeh, and Ming-Syan Chen. Predicting Winning Price in Real Time Bidding with Censored Data](http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/win-price-pred.pdf). In KDD, 2015.
   
-  
   https://github.com/wush978/KDD2015wpp
+  
+# Code
+  * [win_price_model] (./win_price_model)
+    * [preprocess.py] (./win_price_model/preprocess.py)
+        * (1) Get data from source code ipinyou.contest.dataset
+        * (2) Sort the data with timestamp
+        * (3) Predict CTR by [Ftrl_proximal](./ftrlProximal)
+        * (4) Generate simulated data and filter the data with the winning price equal to zero
+        * (5) Pickle the dataset with [FeatureHasher](./dbFeatureHasher)
