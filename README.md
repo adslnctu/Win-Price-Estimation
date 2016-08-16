@@ -1,20 +1,19 @@
 # Win-Price-Estimation
 
-# Required Environment
+# Required Library
+  scikit-learn, scipy, mpmath
 
 # Dataset
 
-
 iPinYou dataset  http://data.computational-advertising.org/
 
-* Season2: 2013/6/6~2013/6/12
+  * Season2: 2013/6/6~2013/6/12
 
-* Season3: 2013/10/19~2013/10/27
-
-
+  * Season3: 2013/10/19~2013/10/27
 
 # Library
-
+   * [dbFeatureHasher](./dbFeatureHasher): [sklearn FeatureHasher](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.FeatureHasher.html)
+   * [ftrlProximal]:Use [Ad Click Prediction: a View from the Trenches by H. Brendan McMahan. KDD 2013.](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf) to predict CTR for each bid request. 
 
 # Plot Data
 
