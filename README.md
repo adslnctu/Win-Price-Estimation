@@ -37,10 +37,10 @@ This is a win price estimation model in Real-Time Biddiing System by NCTU ADSL l
       * simulated ratio: 0.333 (2/6)
     * [simulated_3_6] (./win_price_model/simulated_3_6)
       * simulated ratio: 0.5   (3/6)
-      * [maxOfAll](./win_price_model/simulated_3_6/maxOfAll): initialize the theta with max(winning price, bidding price)
-      * [meanOfAll](./win_price_model/simulated_3_6/meanOfAll):initialize the theta with the mean of all data (win bid: winning price, lose bid: bidding price)
-      * [meanOfwin](./win_price_model/simulated_3_6/meanOfwin):initialize the theta with the mean of win data
-      * [varWL](./win_price_model/simulated_3_6/varWL):initialize the theta with variance(.)/mean(.) of all data (win bid: winning price, lose bid: bidding price)
+      * [maxOfAll](./win_price_model/simulated_3_6/maxOfAll/season2): initialize the theta with max(winning price, bidding price)
+      * [meanOfAll](./win_price_model/simulated_3_6/meanOfAll/season2):initialize the theta with the mean of all data (win bid: winning price, lose bid: bidding price)
+      * [meanOfwin](./win_price_model/simulated_3_6/meanOfwin/season2):initialize the theta with the mean of win data
+      * [varWL](./win_price_model/simulated_3_6/varWL/season2):initialize the theta with variance(.)/mean(.) of all data (win bid: winning price, lose bid: bidding price)
     * [simulated_4_6] (./win_price_model/simulated_4_6)
       * simulated ratio: 0.667 (4/6)
     * [simulated_5_6] (./win_price_model/simulated_5_6)
